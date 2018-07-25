@@ -1,0 +1,31 @@
+body > header {
+  background: #FFEAAA;
+}
+address {
+  color: #777;
+  display: inline-block;
+}
+
+address a {
+  font-weight: bold;
+  text-decoration: none;
+}
+#filters {
+  padding: 0;
+  list-style: none;
+}
+
+  nav ul {
+    display: block;
+  }
+
+  nav ul li {
+    display: inline;
+    border-bottom: none;
+  }
+
+  nav ul li:hover a {
+    color: #29506D;
+  }
+}
+

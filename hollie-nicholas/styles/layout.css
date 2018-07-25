@@ -1,0 +1,22 @@
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (min-width: 640px) {
+  header section {
+    padding: .1em .1em .1em 2em;
+    float: none;
+  }
+  #filters li {
+    display: inline;
+  }
